@@ -1,6 +1,5 @@
-package com.bootcamp.clase8feb.dto.response;
+package com.bootcamp.clase8feb.model;
 
-import com.bootcamp.clase8feb.model.Deporte;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,9 +10,10 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class DeportesDTO {
-    // List<Deporte> deportes;
+public class Paciente {
+    Long id;
     String nombre;
-    int nivel;
-
+    String apellido;
+    int edad;
+    List<Sintoma> sintomas;
 }

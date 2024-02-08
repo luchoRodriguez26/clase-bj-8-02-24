@@ -14,5 +14,5 @@ import java.util.List;
 public class Deporte {
     String nombre;
     int nivel;
-    List<Persona> personasInscriptas = new ArrayList<>();
+    List<Persona> personasInscriptas;
 }
