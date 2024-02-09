@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-public class DeportistasController {
+public class DeporteController {
 
     List<Deporte> deportes = List.of(
             new Deporte("futbol", 2, List.of(new Persona("Luciano", "Rodriguez", 21))),

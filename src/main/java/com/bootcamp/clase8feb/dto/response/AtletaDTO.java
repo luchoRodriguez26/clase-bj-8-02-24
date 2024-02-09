@@ -11,5 +11,5 @@ import lombok.experimental.FieldDefaults;
 public class AtletaDTO {
     String nombre;
     String apellido;
-    String deporte_realizado;
+    String deporteRealizado;
 }
